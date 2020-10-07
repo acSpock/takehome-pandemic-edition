@@ -13,7 +13,9 @@
  4. To get all listings use the following **Query** using the following endpoint with the payload using the auth token. If you're using postman, click Authorization and select Bearer Token and enter what you see below:
 	 
 	Bearer Token 676cfd34-e706-4cce-87ca-97f947c43bd4
+    
     POST http://localhost:4000/api
+    
     *payload:*
     
         query {
