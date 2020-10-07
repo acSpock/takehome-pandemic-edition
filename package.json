@@ -1,0 +1,30 @@
+{
+  "name": "takehome-pandemic-edition",
+  "version": "1.0.0",
+  "description": "take home!",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acSpock/takehome-pandemic-edition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acSpock/takehome-pandemic-edition/issues"
+  },
+  "homepage": "https://github.com/acSpock/takehome-pandemic-edition#readme",
+  "dependencies": {
+    "apollo-server-express": "2.18.2",
+    "apollo-datasource-rest": "0.9.4",
+    "express": "4.17.1",
+    "mongoose": "5.10.8"
+  },
+  "devDependencies": {
+    "jest": "^25.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
